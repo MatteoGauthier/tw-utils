@@ -12,11 +12,11 @@ yarn add --dev tw-utils
 
 Open your `tailwind.config.js` file and put presets of your choice
 
-```js{18}
+```js
 module.exports = {
 	/// Your Config
     presets: [
-        require('tw-utils/font/inter')
+        require('tw-utils/font/inter') // Line to ad
     ]
 	/// Your Config
 };
