@@ -1,5 +1,5 @@
 {
-  "name": "tw-inter-sans",
+  "name": "tw-utils",
   "version": "1.1.1",
   "description": "Tailwind preset to add inter font to a tailwind project, (font-family only)",
   "main": "index.js",
