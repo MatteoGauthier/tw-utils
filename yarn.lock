@@ -192,6 +192,11 @@ fs.realpath@^1.0.0:
   resolved "https://registry.yarnpkg.com/fs.realpath/-/fs.realpath-1.0.0.tgz#1504ad2523158caa40db4a2787cb01411994ea4f"
   integrity sha1-FQStJSMVjKpA20onh8sBQRmU6k8=
 
+full-palette@^1.1.0:
+  version "1.1.0"
+  resolved "https://registry.yarnpkg.com/full-palette/-/full-palette-1.1.0.tgz#734a6a2ef889881ba2ee704ac145ca16c8fef5af"
+  integrity sha512-uhCh1Y+QqElzOkJivynTMIx9oT5Y7g/AcSco9GkaM+ESeIxCKI04yMidmmjwscNdEYCNTGffV+JZbSyA78TZeQ==
+
 function-bind@^1.1.1:
   version "1.1.1"
   resolved "https://registry.yarnpkg.com/function-bind/-/function-bind-1.1.1.tgz#a56899d3ea3c9bab874bb9773b7c5ede92f4895d"
