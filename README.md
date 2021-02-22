@@ -24,8 +24,8 @@ module.exports = {
 
 ## Which utils did you provide ?
 
-| Utils                                      |               Import code               |
-| ------------------------------------------ | :-------------------------------------: |
-| Inter font import                          |     `require('tw-utils/font/inter)`     |
-| Inter font import as display attribute     | `require('tw-utils/font/inter/display)` |
-| Full tailwind palette (`full-palette` pkg) |    `require('tw-utils/colors/full)`     |
+| Utils                                             |               Import code               |
+| ------------------------------------------------- | :-------------------------------------: |
+| Inter font import                                 |     `require('tw-utils/font/inter)`     |
+| Inter font import as display attribute            | `require('tw-utils/font/inter/display)` |
+| Full tailwind colors palette (`full-palette` pkg) |    `require('tw-utils/colors/full)`     |
