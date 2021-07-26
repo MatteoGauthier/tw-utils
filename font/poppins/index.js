@@ -3,7 +3,7 @@ module.exports = {
 	theme: {
 		extend: {
 			fontFamily: {
-				manrope: ["'Poppins'", "Poppins", ...defaultTheme.fontFamily.sans],
+				poppins: ["'Poppins'", "Poppins", ...defaultTheme.fontFamily.sans],
 			},
 		},
 	},
