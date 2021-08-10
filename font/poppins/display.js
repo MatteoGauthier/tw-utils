@@ -3,7 +3,7 @@ module.exports = {
 	theme: {
 		extend: {
 			fontFamily: {
-				sans: ["'Poppins'", "Poppins", ...defaultTheme.fontFamily.sans],
+				display: ["'Poppins'", "Poppins", ...defaultTheme.fontFamily.sans],
 			},
 		},
 	},

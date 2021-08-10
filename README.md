@@ -16,7 +16,7 @@ Open your `tailwind.config.js` file and put presets of your choice
 module.exports = {
 	/// Your Config
 	presets: [
-		require("tw-utils/font/inter"), // Line to ad
+		require("tw-utils/font/inter"), // Line to add
 	],
 	/// Your Config
 };
@@ -28,8 +28,8 @@ module.exports = {
 | ------------------------------------------------- | :---------------------------------------------: |
 | Inter font import                                 |         `require('tw-utils/font/inter)`         |
 | Inter font import as display attribute            |     `require('tw-utils/font/inter/display)`     |
-| Manrope font import as display attribute          |    `require('tw-utils/font/manrope/display)`    |
 | Manrope font import                               |        `require('tw-utils/font/manrope)`        |
-| Space Grotesk font import as display attribute    | `require('tw-utils/font/space-grotesk/display)` |
+| Manrope font import as display attribute          |    `require('tw-utils/font/manrope/display)`    |
 | Space Grotesk font import                         |     `require('tw-utils/font/space-grotesk)`     |
+| Space Grotesk font import as display attribute    | `require('tw-utils/font/space-grotesk/display)` |
 | Full tailwind colors palette (`full-palette` pkg) |        `require('tw-utils/colors/full)`         |

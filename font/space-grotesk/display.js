@@ -3,7 +3,7 @@ module.exports = {
 	theme: {
 		extend: {
 			fontFamily: {
-				sans: ["'Space Grotesk'", "Space Grotesk", ...defaultTheme.fontFamily.sans],
+				display: ["'Space Grotesk'", "Space Grotesk", ...defaultTheme.fontFamily.sans],
 			},
 		},
 	},
