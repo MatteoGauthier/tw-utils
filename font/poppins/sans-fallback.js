@@ -5,7 +5,7 @@ module.exports = {
     extend: {
       fontFamily: {
         sans: [
-          ...fallbackMacOsFonts,
+          "ui-sans-serif", "system-ui", "-apple-system", "BlinkMacSystemFont", '"Helvetica Neue"',
           "'Poppins'",
           "Poppins",
           ...defaultTheme.fontFamily.sans,

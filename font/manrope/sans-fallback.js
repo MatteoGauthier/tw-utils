@@ -1,10 +1,9 @@
 const defaultTheme = require("tailwindcss/defaultTheme")
-const fallbackMacOsFonts = require("../../lib/fallback-macos-fonts")
 module.exports = {
 	theme: {
 		extend: {
 			fontFamily: {
-				sans: [...fallbackMacOsFonts, "'Manrope'", "Manrope", ...defaultTheme.fontFamily.sans],
+				sans: ["ui-sans-serif", "system-ui", "-apple-system", "BlinkMacSystemFont", '"Helvetica Neue"', "'Manrope'", "Manrope", ...defaultTheme.fontFamily.sans],
 			},
 		},
 	},

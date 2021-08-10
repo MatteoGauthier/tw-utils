@@ -4,7 +4,7 @@ module.exports = {
 	theme: {
 		extend: {
 			fontFamily: {
-				display: [...fallbackMacOsFonts, "'Inter'", "Inter", ...defaultTheme.fontFamily.sans],
+				display: ["ui-sans-serif", "system-ui", "-apple-system", "BlinkMacSystemFont", '"Helvetica Neue"', "'Inter'", "Inter", ...defaultTheme.fontFamily.sans],
 			},
 		},
 	},
