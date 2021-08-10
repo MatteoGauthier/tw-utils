@@ -4,7 +4,7 @@ module.exports = {
 	theme: {
 		extend: {
 			fontFamily: {
-				display: [fallbackMacOsFonts, "'Inter'", "Inter", ...defaultTheme.fontFamily.sans],
+				display: [...fallbackMacOsFonts, "'Inter'", "Inter", ...defaultTheme.fontFamily.sans],
 			},
 		},
 	},

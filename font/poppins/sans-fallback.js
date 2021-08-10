@@ -7,7 +7,7 @@ module.exports = {
     extend: {
       fontFamily: {
         sans: [
-          fallbackMacOsFonts,
+          ...fallbackMacOsFonts,
           "'Poppins'",
           "Poppins",
           ...defaultTheme.fontFamily.sans,

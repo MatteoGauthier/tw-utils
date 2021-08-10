@@ -7,7 +7,7 @@ module.exports = {
     extend: {
       fontFamily: {
         sans: [
-          fallbackMacOsFonts,
+          ...fallbackMacOsFonts,
           "'Space Grotesk'",
           "Space Grotesk",
           ...defaultTheme.fontFamily.sans,

@@ -7,7 +7,7 @@ module.exports = {
     extend: {
       fontFamily: {
         sans: [
-          fallbackMacOsFonts,
+          ...fallbackMacOsFonts,
           "'Manrope'",
           "Manrope",
           ...defaultTheme.fontFamily.sans,
