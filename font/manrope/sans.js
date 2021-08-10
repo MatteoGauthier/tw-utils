@@ -3,7 +3,7 @@ module.exports = {
 	theme: {
 		extend: {
 			fontFamily: {
-				inter: ["'Inter'", "Inter", ...defaultTheme.fontFamily.sans],
+				sans: ["'Manrope'", "Manrope", ...defaultTheme.fontFamily.sans],
 			},
 		},
 	},
