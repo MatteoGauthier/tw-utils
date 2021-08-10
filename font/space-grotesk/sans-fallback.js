@@ -1,7 +1,5 @@
 const defaultTheme = require("tailwindcss/defaultTheme");
-const {
-  default: fallbackMacOsFonts,
-} = require("../../lib/fallback-macos-fonts");
+const fallbackMacOsFonts = require("../../lib/fallback-macos-fonts");
 module.exports = {
   theme: {
     extend: {
