@@ -1,11 +1,15 @@
 const defaultTheme = require("tailwindcss/defaultTheme");
+const {
+  default: fallbackMacOsFonts,
+} = require("../../lib/fallback-macos-fonts");
 module.exports = {
   theme: {
     extend: {
       fontFamily: {
-        display: [
-          "'Space Grotesk'",
-          "Space Grotesk",
+        sans: [
+          fallbackMacOsFonts,
+          "'Poppins'",
+          "Poppins",
           ...defaultTheme.fontFamily.sans,
         ],
       },
