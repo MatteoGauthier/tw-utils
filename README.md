@@ -24,22 +24,22 @@ module.exports = {
 
 ## Which utils did you provide ?
 
-| Utils                                                    | Import code                                                  |                                           Result class |
-| -------------------------------------------------------- | :----------------------------------------------------------- | -----------------------------------------------------: |
-| **Inter** font import                                    | `require('tw-utils/font/inter)`                              |                                           `font-inter` |
-| **Inter** font import as sans attribute                  | `require('tw-utils/font/inter/sans)`                         |                                            `font-sans` |
-| **Inter** font import as display attribute               | `require('tw-utils/font/inter/display)`                      |                                         `font-display` |
-| **Inter** font import as sans, fallback of macos fonts   | `require('tw-utils/font/inter/mac-os-fallback-sans)`         |                                            `font-sans` |
-| **Manrope** font import                                  | `require('tw-utils/font/manrope)`                            |                                         `font-manrope` |
-| **Manrope** font import as sans attribute                | `require('tw-utils/font/manrope/sans)`                       |                                            `font-sans` |
-| **Manrope** font import as display attribute             | `require('tw-utils/font/manrope/display)`                    |                                         `font-display` |
-| **Manrope** font import as sans, fallback of macos fonts   | `require('tw-utils/font/manrope/mac-os-fallback-sans)`       |                                            `font-sans` |
-| **Space Grotesk** font import                            | `require('tw-utils/font/space-grotesk)`                      |                                   `font-space-grotesk` |
-| **Space Grotesk** font import as display attribute       | `require('tw-utils/font/space-grotesk/sans)`                 |                                            `font-sans` |
-| **Space Grotesk** font import as display attribute       | `require('tw-utils/font/space-grotesk/display)`              |                                         `font-display` |
-| **Space Grotesk** font import as sans, fallback of macos fonts   | `require('tw-utils/font/space-grotesk/mac-os-fallback-sans)` |                                            `font-sans` |
-| **Poppins** font import                                  | `require('tw-utils/font/poppins)`                            |                                         `font-poppins` |
-| **Poppins** font import as display attribute             | `require('tw-utils/font/poppins/sans)`                       |                                            `font-sans` |
-| **Poppins** font import as display attribute             | `require('tw-utils/font/poppins/display)`                    |                                         `font-display` |
-| **Poppins** font import as sans, fallback of macos fonts | `require('tw-utils/font/poppins/mac-os-fallback-sans)`       |                                            `font-sans` |
-| Full tailwind colors palette (`full-palette` pkg)        | `require('tw-utils/colors/full)`                             | [docs](https://github.com/MatteoGauthier/full-palette) |
+| Utils                                                          | Import code                                           |                                           Result class |
+| -------------------------------------------------------------- | :---------------------------------------------------- | -----------------------------------------------------: |
+| **Inter** font import                                          | `require('tw-utils/font/inter)`                       |                                           `font-inter` |
+| **Inter** font import as sans attribute                        | `require('tw-utils/font/inter/sans)`                  |                                            `font-sans` |
+| **Inter** font import as display attribute                     | `require('tw-utils/font/inter/display)`               |                                         `font-display` |
+| **Inter** font import as sans, fallback of macos fonts         | `require('tw-utils/font/inter/fallback-sans)`         |                                            `font-sans` |
+| **Manrope** font import                                        | `require('tw-utils/font/manrope)`                     |                                         `font-manrope` |
+| **Manrope** font import as sans attribute                      | `require('tw-utils/font/manrope/sans)`                |                                            `font-sans` |
+| **Manrope** font import as display attribute                   | `require('tw-utils/font/manrope/display)`             |                                         `font-display` |
+| **Manrope** font import as sans, fallback of macos fonts       | `require('tw-utils/font/manrope/fallback-sans)`       |                                            `font-sans` |
+| **Space Grotesk** font import                                  | `require('tw-utils/font/space-grotesk)`               |                                   `font-space-grotesk` |
+| **Space Grotesk** font import as display attribute             | `require('tw-utils/font/space-grotesk/sans)`          |                                            `font-sans` |
+| **Space Grotesk** font import as display attribute             | `require('tw-utils/font/space-grotesk/display)`       |                                         `font-display` |
+| **Space Grotesk** font import as sans, fallback of macos fonts | `require('tw-utils/font/space-grotesk/fallback-sans)` |                                            `font-sans` |
+| **Poppins** font import                                        | `require('tw-utils/font/poppins)`                     |                                         `font-poppins` |
+| **Poppins** font import as display attribute                   | `require('tw-utils/font/poppins/sans)`                |                                            `font-sans` |
+| **Poppins** font import as display attribute                   | `require('tw-utils/font/poppins/display)`             |                                         `font-display` |
+| **Poppins** font import as sans, fallback of macos fonts       | `require('tw-utils/font/poppins/fallback-sans)`       |                                            `font-sans` |
+| Full tailwind colors palette (`full-palette` pkg)              | `require('tw-utils/colors/full)`                      | [docs](https://github.com/MatteoGauthier/full-palette) |
