@@ -3,7 +3,7 @@ const fallbackMacOsFonts = require("../../lib/fallback-macos-fonts")
 module.exports = {
 	theme: {
 		fontFamily: {
-			display: [
+			sans: [
 				"ui-sans-serif",
 				"system-ui",
 				"-apple-system",
