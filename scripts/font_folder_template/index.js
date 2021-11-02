@@ -3,7 +3,7 @@ module.exports = {
   theme: {
     extend: {
       fontFamily: {
-        inter: ["'{{css_font_name}}'", "{{css_font_name}}", ...defaultTheme.fontFamily.sans],
+        "{{css_font_name}}": ["'{{css_font_name}}'", "{{css_font_name}}", ...defaultTheme.fontFamily.sans],
       },
     },
   },
