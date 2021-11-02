@@ -27,7 +27,7 @@ const templates = ["index.js", "display.js", "sans-fallback.js", "sans.js"]
 	for (let i = 0; i < templates.length; i++) {
 		const template = templates[i]
 		const content = await fs.readFile(__dirname + "/font_folder_template/" + template, "utf8")
-		const result = content.replaceAll("{{css_font_name}}", args[0])
+		const result = content.replaceAll("{{css_font_name}}", args[0]).replaceAll("{{tw_font_name}}", args[1])
 		await fs.writeFile(__dirname + "/../font/" + args[1] + "/" + template, result, "utf8")
 	}
 })()

@@ -3,7 +3,7 @@ module.exports = {
   theme: {
     extend: {
       fontFamily: {
-        "Satoshi": ["'Satoshi'", "Satoshi", ...defaultTheme.fontFamily.sans],
+        "satoshi": ["'Satoshi'", "Satoshi", ...defaultTheme.fontFamily.sans],
       },
     },
   },
