@@ -5,7 +5,12 @@
   "main": "index.js",
   "author": "Mattèo Gauthier <matteo.gauthier@gmail.com>",
   "license": "MIT",
+  "scripts": {
+    "add-font": "node ./scripts/addFont.js"
+  },
   "devDependencies": {
+    "@zaydek/esnode": "^0.1.2",
+    "esbuild-runner": "^2.2.1",
     "tailwindcss": "^2.2.7"
   },
   "repository": {
